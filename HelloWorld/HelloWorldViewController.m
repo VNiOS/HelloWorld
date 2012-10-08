@@ -52,7 +52,7 @@
     
     NSString *nameString = self.userName;
     if ([nameString length] == 0) {
-        nameString = @"World";
+        nameString = @"Test password";
     }
     
     NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
